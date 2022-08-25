@@ -1,0 +1,130 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: #121212;
+    color: aliceblue;
+}
+
+.icons{
+    align-items: right;
+    text-align: right;
+    width: 20;
+    height: 20;
+}
+
+#particles-js {
+    position: relative;
+}
+#smaller-box{
+    position: absolute;
+}
+
+.first {
+    height: 100vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .faded-box{
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    padding: 3.5%;
+  }
+  .first p {
+    font-size: 40px;
+    text-align: center;
+    align-items: right;
+    overflow: hidden;
+  }
+  .typed-text {
+    font-weight: normal;
+    color: #929AAB;
+  }
+  .cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: black;
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+  }
+  .cursor.typing{
+    animation: none;
+  }
+  @keyframes blink {
+    0% { background-color: black;}
+    50% { background-color: transparent;}
+    100% { background-color: black;}
+  }
+  .scroll-dwn-btn{
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border: 2px solid white;
+    position: absolute;
+    left: 50%;
+    bottom: 7%;
+    cursor: pointer;
+    transform: rotate(-45deg);
+    border-top: transparent;
+    border-right: transparent;
+    animation: sdb05 1.5s infinite;
+  }
+  @-webkit-keyframes sdb05 {
+    0% {
+      -webkit-transform: rotate(-45deg) translate(0, 0);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+      opacity: 0;
+    }
+  }
+  @keyframes sdb05 {
+    0% {
+      transform: rotate(-45deg) translate(0, 0);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(-45deg) translate(-20px, 20px);
+      opacity: 0;
+    }
+  }
+  .second{
+    height: 60vh;
+    background-color: black;
+    color: white;
+  }
+  .third{
+    background-color: white;
+    height: 60vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
