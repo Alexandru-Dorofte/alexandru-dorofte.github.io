@@ -1,22 +1,30 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden
   }
 
 body {
     background-color: #121212;
-    color: aliceblue;
 }
 
-.icons{
-    align-items: right;
-    text-align: right;
-    width: 20;
-    height: 20;
+a {
+    color: #fff;
+    text-decoration: none;
 }
+a:hover {
+  color:grey; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+/* 
+.icons{
+
+} */
 
 #particles-js {
     position: relative;
 }
+
 #smaller-box{
     position: absolute;
 }
@@ -43,7 +51,7 @@ body {
   }
   .typed-text {
     font-weight: normal;
-    color: #929AAB;
+    color: #7b777b;
   }
   .cursor {
     display: inline-block;
@@ -101,30 +109,11 @@ body {
     }
   }
   .second{
-    height: 60vh;
+    /* height: 60vh; */
     background-color: black;
     color: white;
   }
-  .third{
-    background-color: white;
-    height: 60vh;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  /* Create three equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
+footer {
+    color: white;
+}
