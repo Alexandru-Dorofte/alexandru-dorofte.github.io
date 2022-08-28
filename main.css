@@ -16,6 +16,37 @@ a:hover {
   text-decoration:none; 
   cursor:pointer;  
 }
+
+#linkedin:hover {
+  color:#0A66C2; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+#github:hover {
+  color: #333333; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+#email:hover {
+  color: red; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+#discord:hover {
+  color:#5865F2; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+#twitter:hover {
+  color:#1DA1F2; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
 /* 
 .icons{
 
