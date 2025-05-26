@@ -144,6 +144,11 @@ a:hover {
     background-color: black;
     color: white;
   }
+  .third{
+    /* height: 60vh; */
+    background-color: rgba(0, 0, 0, 0.159);
+    color: white;
+  }
 
 footer {
     color: white;
